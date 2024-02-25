@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.hero-image {
+    background-image: linear-gradient(#081329dc, #081329df), url(img/hero.webp);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p {
+    margin: 0;
+}
+.container {
+    width: 40%;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+input {
+    width: 100%;
+    display: block;
+    padding: 10px 8px;
+    border-radius: 3px;
+    border: none;
+    margin: 10px 0;
+    font-size: 14px;
+}
+input:focus {
+    outline: rgb(0, 177, 253) 2px solid;
+}
+form a {
+    text-decoration: none;
+    text-align: right;
+    display: block;
+}
+input[type=checkbox] {
+    padding: 0;
+    display: inline-block;
+}
+button {
+    background-color: rgb(59 130 246);
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.line {
+    height: 1px;
+    background-color: rgb(51, 51, 51);
+    width: 43%;
+    margin: 20px 0;
+}
+
+.buttons {
+    padding: 10px;
+    background-color: white;
+    color: grey;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.buttons-inside {
+    width: 60%;
+    margin: auto;
+}
+hr {
+    border: none;
+    background-color: grey;
+    height: 1px;
+    margin: 20px 0;
+}
